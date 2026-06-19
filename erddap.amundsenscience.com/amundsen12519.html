@@ -241,8 +241,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/amundsen11975_aquadopp.nc</p>
-      <p align="center">Report generated 2026-06-19T03:08:08Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-06-19T03:19:16Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">3</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -301,7 +301,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units attribute is required for DEPTH_quality_control when variable is not a dimensionless quantity</li>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
                         </ul>
 
                         </td>
@@ -309,61 +309,56 @@ li{
 
 
               <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§3.4 Ancillary Data</td>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>northward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable OXYM</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>eastward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D0CT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>upward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D_CT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_speed is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>direction_of_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PSAL</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_temperature is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_pressure_due_to_sea_water is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable ASAL</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_pitch_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable CONT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_roll_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TE90</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_yaw_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TRAN</li>
                         </ul>
 
                         </td>
@@ -387,23 +382,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§4.3 Vertical Coordinate</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>§4.3.1 DEPTH_quality_control&#39;s units must be defined for vertical coordinates, there is no default</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>DEPTH_quality_control: vertical coordinates not defining pressure must include a positive attribute that is either &#39;up&#39; or &#39;down&#39;</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -566,8 +544,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/amundsen11975_aquadopp.nc</p>
-      <p align="center">Report generated 2026-06-19T03:08:08Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-06-19T03:19:16Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -594,7 +572,7 @@ li{
         <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">17</span>
+        | <span class="label label-danger label-as-badge">12</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -617,11 +595,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;CDIR&#34; missing the following attributes:</td>
+                    <td>variable &#34;ASAL&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -629,11 +622,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;CSPD&#34; missing the following attributes:</td>
+                    <td>variable &#34;CONT&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -641,11 +649,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;HEADING&#34; missing the following attributes:</td>
+                    <td>variable &#34;D0CT&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -653,11 +676,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;PITCH&#34; missing the following attributes:</td>
+                    <td>variable &#34;D_CT&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -665,11 +703,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;PRES_REL&#34; missing the following attributes:</td>
+                    <td>variable &#34;FLOR&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -677,11 +730,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;ROLL&#34; missing the following attributes:</td>
+                    <td>variable &#34;OXYM&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -689,11 +757,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;TEMP&#34; missing the following attributes:</td>
+                    <td>variable &#34;PRES&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -701,11 +784,26 @@ li{
 
 
               <tr>
-                    <td>variable &#34;UCUR&#34; missing the following attributes:</td>
+                    <td>variable &#34;PSAL&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -713,23 +811,16 @@ li{
 
 
               <tr>
-                    <td>variable &#34;VCUR&#34; missing the following attributes:</td>
+                    <td>variable &#34;TE90&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
                         </ul>
 
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;VOLT&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
+                        <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
+                          <li>long_name</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -742,11 +833,48 @@ li{
 
 
               <tr>
-                    <td>variable &#34;WCUR&#34; missing the following attributes:</td>
+                    <td>variable &#34;TRAN&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;cast_number&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
                         </ul>
 
                         </td>
@@ -759,94 +887,6 @@ li{
 
 
               <tr>
-                    <td>variable &#34;instrument_average_interval&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;instrument_beam_angle&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;instrument_nominal_depth&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;instrument_sample_interval&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
                     </td>
                   </tr>
 
@@ -857,38 +897,11 @@ li{
 
 
               <tr>
-                    <td>variable &#34;site_depth_at_deployment&#34; missing the following attributes:</td>
+                    <td>variable &#34;platform_id&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
                           <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;site_nominal_depth&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
@@ -940,11 +953,6 @@ li{
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>creator_url not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
                           <li>processing_level not present</li>
                         </ul>
 
@@ -973,7 +981,17 @@ li{
                           <li>geospatial_bounds_vertical_crs not present</li>
                         </ul>
 
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>source not present</li>
+                        </ul>
+
                         </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
                   </tr>
 
 
@@ -1064,8 +1082,8 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/amundsen11975_aquadopp.nc</p>
-      <p align="center">Report generated 2026-06-19T03:08:08Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-06-19T03:19:16Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -1092,7 +1110,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">4</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -1124,12 +1142,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>actual_range elements of &#39;instrument_average_interval&#39; inconsistent with its min/max values</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>&#34;time&#34;&#39;s actual_range second element must be &lt;= valid_max (90000.0)</li>
+                          <li>actual_range elements of &#39;TRAN&#39; inconsistent with its min/max values</li>
                         </ul>
 
                         </td>
@@ -1141,7 +1154,7 @@ li{
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units attribute is required for DEPTH_quality_control when variable is not a dimensionless quantity</li>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
                         </ul>
 
                         </td>
@@ -1149,61 +1162,56 @@ li{
 
 
               <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§3.4 Ancillary Data</td>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>northward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable OXYM</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>eastward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D0CT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>upward_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D_CT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_speed is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>direction_of_sea_water_velocity is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PSAL</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_temperature is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>sea_water_pressure_due_to_sea_water is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable ASAL</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_pitch_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable CONT</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_roll_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TE90</li>
                         </ul>
 
                         <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>platform_yaw_angle is not a variable in this dataset</li>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TRAN</li>
                         </ul>
 
                         </td>
@@ -1227,23 +1235,6 @@ li{
 
               <tr>
                     </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§4.3 Vertical Coordinate</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>§4.3.1 DEPTH_quality_control&#39;s units must be defined for vertical coordinates, there is no default</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>DEPTH_quality_control: vertical coordinates not defining pressure must include a positive attribute that is either &#39;up&#39; or &#39;down&#39;</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
