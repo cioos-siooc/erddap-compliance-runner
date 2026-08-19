@@ -241,17 +241,17 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/dfo-hal1002-20251201_erddap.nc</p>
-      <p align="center">Report generated 2026-08-19T02:30:01Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-08-19T02:31:15Z</p>
     </div>
   </div>
   <div class="col-md-12">
     <h3 align="center">
       
-        <a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html target="_blank">cf:1.9</a>
+        <a href=http://cfconventions.org/cf-conventions/v1.6.0/cf-conventions.html target="_blank">cf:1.6</a>
       
     </h3>
-    <!--<a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html>Reference Page</a>-->
+    <!--<a href=http://cfconventions.org/cf-conventions/v1.6.0/cf-conventions.html>Reference Page</a>-->
   </div>
 
   <!-- -------------- -->
@@ -269,7 +269,7 @@ li{
         <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -297,26 +297,11 @@ li{
 
 
               <tr>
-                    <td>§2.5 Variables</td>
+                    <td>§3.1 Units</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>actual_range elements of &#39;depth&#39; inconsistent with its min/max values</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>&#34;depth&#34;&#39;s actual_range first element must be &gt;= valid_min (0.0)</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>actual_range elements of &#39;pressure&#39; inconsistent with its min/max values</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>&#34;pressure&#34;&#39;s actual_range first element must be &gt;= valid_min (0.0)</li>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
                         </ul>
 
                         </td>
@@ -324,12 +309,59 @@ li{
 
 
               <tr>
-                    </td>
-                  </tr>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable OXYM</li>
+                        </ul>
 
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D_CT</li>
+                        </ul>
 
-              <tr>
-                    </td>
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TE90</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TRAN</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable CONT</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PSAL</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D0CT</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable ASAL</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -387,176 +419,6 @@ li{
         </table>
       </div> <!-- .high-priority-table -->
 
-      </div> <!-- .col-md-12 -->
-
-    <!-- Medium Priority -->
-
-    <div class="col-md-12">
-      <div class="table-collapse">
-        <a data-target="medium-priority-table" href="#"> Warnings <i class="glyphicon glyphicon-collapse-up"></i></a>
-      </div>
-      <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
-      </div>
-      <div class="medium-priority-table collapse in">
-        <table class="table">
-          <thead>
-            <tr>
-              <th class="cname">Name</th>
-              <th class="ccorrection">Reasoning</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§2.6 Attributes</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>§2.6.1 Conventions global attribute does not contain &#34;CF-1.9&#34;</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              </tbody>
-
-        </table>
-      </div> <!-- .medium-priority-table -->
-      </div> <!-- .col-md-12 -->
-
-    <!-- Low Priority -->
-
-    <div class="col-md-12">
-      </div> <!-- .col-md-12 -->
-
-  </div> <!-- .col-md-12 -->
-</div> <!-- .row --></div>
-    
-      <div class='check_wrapper'><!-- Template for the HTML markup for the results of a single test -->
-
-<style>
-
-/* ------------------------- */
-/* ----- Table Styling ----- */
-/* ------------------------- */
-
-table {
-  font-family: helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th{
-    text-align: left;
-    padding: 12 px;
-}
-
-td{
-  /*border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;*/
-  font-size: 14px;
-  text-align: left;
-  padding: 8px;
-}
-
-td:first-child{
-  font-style: italic;
-}
-
-/* ------------------------ */
-/* ----- List styling ----- */
-/* ------------------------ */
-
-li{
-  line-height: 14px;
-}
-
-</style>
-
-<div class="row">
-  <div class="col-md-12">
-    <div class="page-header">
-      <h2 align="center">IOOS Compliance Checker Report</h2>
-      <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/dfo-hal1002-20251201_erddap.nc</p>
-      <p align="center">Report generated 2026-08-19T02:30:01Z</p>
-    </div>
-  </div>
-  <div class="col-md-12">
-    <h3 align="center">
-      
-        <a href=http://cfconventions.org/cf-conventions/v1.6.0/cf-conventions.html target="_blank">cf:1.6</a>
-      
-    </h3>
-    <!--<a href=http://cfconventions.org/cf-conventions/v1.6.0/cf-conventions.html>Reference Page</a>-->
-  </div>
-
-  <!-- -------------- -->
-  <!-- RESULTS TABLES -->
-  <!-- -------------- -->
-
-  <div class="col-md-12">
-    <!--<h4>Corrective Actions</h4>-->
-    <h4 align="center">Corrective Actions</h4>
-    <div class="col-md-12">
-
-      <!-- High Priority -->
-
-      <div class="table-collapse">
-        <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
-      </div>
-      <div class="failures">
-        | <span class="label label-success label-as-badge">0</span>
-      </div>
-
-      <div class="high-priority-table collapse in">
-        <table class="table">
-          <tbody>
-            <tr>
-              <td>All high priority checks passed!</th>
-            </tr>
-          </tbody>
-        </table>
-      </div>
       </div> <!-- .col-md-12 -->
 
     <!-- Medium Priority -->
@@ -620,6 +482,539 @@ li{
                   </tr>
 
 
+              </tbody>
+
+        </table>
+      </div> <!-- .medium-priority-table -->
+      </div> <!-- .col-md-12 -->
+
+    <!-- Low Priority -->
+
+    <div class="col-md-12">
+      </div> <!-- .col-md-12 -->
+
+  </div> <!-- .col-md-12 -->
+</div> <!-- .row --></div>
+    
+      <div class='check_wrapper'><!-- Template for the HTML markup for the results of a single test -->
+
+<style>
+
+/* ------------------------- */
+/* ----- Table Styling ----- */
+/* ------------------------- */
+
+table {
+  font-family: helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+    text-align: left;
+    padding: 12 px;
+}
+
+td{
+  /*border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;*/
+  font-size: 14px;
+  text-align: left;
+  padding: 8px;
+}
+
+td:first-child{
+  font-style: italic;
+}
+
+/* ------------------------ */
+/* ----- List styling ----- */
+/* ------------------------ */
+
+li{
+  line-height: 14px;
+}
+
+</style>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="page-header">
+      <h2 align="center">IOOS Compliance Checker Report</h2>
+      <p align="center">Version 6.1.0</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-08-19T02:31:15Z</p>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <h3 align="center">
+      
+        <a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery target="_blank">acdd:1.3</a>
+      
+    </h3>
+    <!--<a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery>Reference Page</a>-->
+  </div>
+
+  <!-- -------------- -->
+  <!-- RESULTS TABLES -->
+  <!-- -------------- -->
+
+  <div class="col-md-12">
+    <!--<h4>Corrective Actions</h4>-->
+    <h4 align="center">Corrective Actions</h4>
+    <div class="col-md-12">
+
+      <!-- High Priority -->
+
+      <div class="table-collapse">
+        <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+      </div>
+      <div class="failures">
+        | <span class="label label-danger label-as-badge">12</span>
+      </div>
+
+      <div class="high-priority-table collapse in">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;ASAL&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;CONT&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;D0CT&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;D_CT&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;FLOR&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;OXYM&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PRES&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;PSAL&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;TE90&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;TRAN&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>long_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;cast_number&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>standard_name</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;platform_id&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              </tbody>
+        </table>
+      </div> <!-- .high-priority-table -->
+
+      </div> <!-- .col-md-12 -->
+
+    <!-- Medium Priority -->
+
+    <div class="col-md-12">
+      <div class="table-collapse">
+        <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+      </div>
+      <div class="failures">
+        | <span class="label label-danger label-as-badge">1</span>
+      </div>
+      <div class="medium-priority-table collapse in">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+                    <td>Global Attributes</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>acknowledgment/acknowledgement not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>processing_level not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_coverage_duration not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_coverage_resolution not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_vertical_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>source not present</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
               <tr>
                     </td>
                   </tr>
@@ -687,17 +1082,17 @@ li{
     <div class="page-header">
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
-      <p align="center">For dataset /tmp/cc_erddap/dfo-hal1002-20251201_erddap.nc</p>
-      <p align="center">Report generated 2026-08-19T02:30:01Z</p>
+      <p align="center">For dataset /tmp/cc_erddap/amundsen12519.nc</p>
+      <p align="center">Report generated 2026-08-19T02:31:15Z</p>
     </div>
   </div>
   <div class="col-md-12">
     <h3 align="center">
       
-        <a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery target="_blank">acdd:1.3</a>
+        <a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html target="_blank">cf:1.9</a>
       
     </h3>
-    <!--<a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery>Reference Page</a>-->
+    <!--<a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html>Reference Page</a>-->
   </div>
 
   <!-- -------------- -->
@@ -712,10 +1107,10 @@ li{
       <!-- High Priority -->
 
       <div class="table-collapse">
-        <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+        <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">18</span>
+        | <span class="label label-danger label-as-badge">3</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -728,84 +1123,7 @@ li{
           </thead>
           <tbody>
             <tr>
-                    <td>Global Attributes</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>Conventions does not contain &#39;ACDD-1.3&#39;</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;backscatter_700&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;cdom&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;chlorophyll&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;conductivity&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;density&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
@@ -815,16 +1133,16 @@ li{
 
 
               <tr>
-                    <td>variable &#34;distance_over_ground&#34; missing the following attributes:</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§2.5 Variables</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
+                          <li>actual_range elements of &#39;TRAN&#39; inconsistent with its min/max values</li>
                         </ul>
 
                         </td>
@@ -832,11 +1150,68 @@ li{
 
 
               <tr>
-                    <td>variable &#34;heading&#34; missing the following attributes:</td>
+                    <td>§3.1 Units</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.3 Standard Name</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable OXYM</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D_CT</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TE90</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable TRAN</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable FLOR</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable CONT</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PRES</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable PSAL</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable D0CT</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>Attribute long_name or/and standard_name is highly recommended for variable ASAL</li>
                         </ul>
 
                         </td>
@@ -854,132 +1229,37 @@ li{
 
 
               <tr>
-                    <td>variable &#34;oxygen_concentration&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;pitch&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;potential_density&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;potential_temperature&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;pressure&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;profile_direction&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
-                    <td>variable &#34;profile_index&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>standard_name</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;roll&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;salinity&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;temperature&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
@@ -997,95 +1277,6 @@ li{
     <!-- Medium Priority -->
 
     <div class="col-md-12">
-      <div class="table-collapse">
-        <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
-      </div>
-      <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
-      </div>
-      <div class="medium-priority-table collapse in">
-        <table class="table">
-          <thead>
-            <tr>
-              <th class="cname">Name</th>
-              <th class="ccorrection">Reasoning</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-                    <td>Global Attributes</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>time_coverage_duration not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>time_coverage_resolution not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds_crs not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds_vertical_crs not present</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>geospatial_vertical_extents_match</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_min != min(depth) values, -0.12272405843133938 != 5.454302703114773</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              </tbody>
-
-        </table>
-      </div> <!-- .medium-priority-table -->
       </div> <!-- .col-md-12 -->
 
     <!-- Low Priority -->
