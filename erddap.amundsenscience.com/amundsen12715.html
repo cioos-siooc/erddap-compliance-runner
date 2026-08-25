@@ -242,16 +242,16 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
       <p align="center">For dataset /tmp/cc_erddap/amundsen12715.nc</p>
-      <p align="center">Report generated 2026-08-24T02:33:42Z</p>
+      <p align="center">Report generated 2026-08-25T02:32:51Z</p>
     </div>
   </div>
   <div class="col-md-12">
     <h3 align="center">
       
-        <a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery target="_blank">acdd:1.3</a>
+        <a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html target="_blank">cf:1.9</a>
       
     </h3>
-    <!--<a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery>Reference Page</a>-->
+    <!--<a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html>Reference Page</a>-->
   </div>
 
   <!-- -------------- -->
@@ -266,10 +266,10 @@ li{
       <!-- High Priority -->
 
       <div class="table-collapse">
-        <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+        <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">6</span>
+        | <span class="label label-danger label-as-badge">2</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -292,11 +292,31 @@ li{
 
 
               <tr>
-                    <td>variable &#34;Fluo&#34; missing the following attributes:</td>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    </td>
+                  </tr>
+
+
+              <tr>
+                    <td>§3.1 Units</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
+                          <li>units for SST_TSG, &#34;degrees_celcius&#34; are not recognized by UDUNITS</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units for Speed, &#34;Knt&#34; are not recognized by UDUNITS</li>
                         </ul>
 
                         </td>
@@ -304,47 +324,11 @@ li{
 
 
               <tr>
-                    <td>variable &#34;P_sal_TSG&#34; missing the following attributes:</td>
+                    <td>§3.3 Standard Name</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;SST_TSG&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;SVel&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        </td>
-                  </tr>
-
-
-              <tr>
-                    <td>variable &#34;Speed&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
+                          <li>standard_name platform_speed is not defined in Standard Name Table v79. Possible close match(es): [&#39;platform_id&#39;, &#39;platform_surge&#39;, &#39;platform_heave&#39;]</li>
                         </ul>
 
                         </td>
@@ -362,106 +346,12 @@ li{
 
 
               <tr>
-                    <td>variable &#34;platform_id&#34; missing the following attributes:</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>coverage_content_type</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units</li>
-                        </ul>
-
-                        </td>
+                    </td>
                   </tr>
 
 
               <tr>
                     </td>
-                  </tr>
-
-
-              </tbody>
-        </table>
-      </div> <!-- .high-priority-table -->
-
-      </div> <!-- .col-md-12 -->
-
-    <!-- Medium Priority -->
-
-    <div class="col-md-12">
-      <div class="table-collapse">
-        <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
-      </div>
-      <div class="failures">
-        | <span class="label label-danger label-as-badge">1</span>
-      </div>
-      <div class="medium-priority-table collapse in">
-        <table class="table">
-          <thead>
-            <tr>
-              <th class="cname">Name</th>
-              <th class="ccorrection">Reasoning</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-                    <td>Global Attributes</td>
-                      <td>
-                          <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>acknowledgment/acknowledgement not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>processing_level not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_min not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_max not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>time_coverage_resolution not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_vertical_positive not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds_crs not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>geospatial_bounds_vertical_crs not present</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>source not present</li>
-                        </ul>
-
-                        </td>
                   </tr>
 
 
@@ -491,9 +381,14 @@ li{
 
 
               </tbody>
-
         </table>
-      </div> <!-- .medium-priority-table -->
+      </div> <!-- .high-priority-table -->
+
+      </div> <!-- .col-md-12 -->
+
+    <!-- Medium Priority -->
+
+    <div class="col-md-12">
       </div> <!-- .col-md-12 -->
 
     <!-- Low Priority -->
@@ -553,7 +448,7 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
       <p align="center">For dataset /tmp/cc_erddap/amundsen12715.nc</p>
-      <p align="center">Report generated 2026-08-24T02:33:42Z</p>
+      <p align="center">Report generated 2026-08-25T02:32:51Z</p>
     </div>
   </div>
   <div class="col-md-12">
@@ -826,16 +721,16 @@ li{
       <h2 align="center">IOOS Compliance Checker Report</h2>
       <p align="center">Version 6.1.0</p>
       <p align="center">For dataset /tmp/cc_erddap/amundsen12715.nc</p>
-      <p align="center">Report generated 2026-08-24T02:33:42Z</p>
+      <p align="center">Report generated 2026-08-25T02:32:51Z</p>
     </div>
   </div>
   <div class="col-md-12">
     <h3 align="center">
       
-        <a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html target="_blank">cf:1.9</a>
+        <a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery target="_blank">acdd:1.3</a>
       
     </h3>
-    <!--<a href=http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html>Reference Page</a>-->
+    <!--<a href=http://wiki.esipfed.org/index.php?title=Category:Attribute_Conventions_Dataset_Discovery>Reference Page</a>-->
   </div>
 
   <!-- -------------- -->
@@ -850,10 +745,10 @@ li{
       <!-- High Priority -->
 
       <div class="table-collapse">
-        <a data-target="high-priority-table" href="#"> Errors <i class="glyphicon glyphicon-collapse-up"></i></a>
+        <a data-target="high-priority-table" href="#"> Highly Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
       </div>
       <div class="failures">
-        | <span class="label label-danger label-as-badge">2</span>
+        | <span class="label label-danger label-as-badge">6</span>
       </div>
 
       <div class="high-priority-table collapse in">
@@ -876,31 +771,11 @@ li{
 
 
               <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    </td>
-                  </tr>
-
-
-              <tr>
-                    <td>§3.1 Units</td>
+                    <td>variable &#34;Fluo&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>units for SST_TSG, &#34;degrees_celcius&#34; are not recognized by UDUNITS</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units attribute is required for platform_id when variable is not a dimensionless quantity</li>
-                        </ul>
-
-                        <!-- bulleted list inside the table row -->
-                        <ul>
-                          <li>units for Speed, &#34;Knt&#34; are not recognized by UDUNITS</li>
+                          <li>coverage_content_type</li>
                         </ul>
 
                         </td>
@@ -908,11 +783,47 @@ li{
 
 
               <tr>
-                    <td>§3.3 Standard Name</td>
+                    <td>variable &#34;P_sal_TSG&#34; missing the following attributes:</td>
                       <td>
                           <!-- bulleted list inside the table row -->
                         <ul>
-                          <li>standard_name platform_speed is not defined in Standard Name Table v79. Possible close match(es): [&#39;platform_id&#39;, &#39;platform_surge&#39;, &#39;platform_heave&#39;]</li>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SST_TSG&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;SVel&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        </td>
+                  </tr>
+
+
+              <tr>
+                    <td>variable &#34;Speed&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
                         </ul>
 
                         </td>
@@ -930,12 +841,106 @@ li{
 
 
               <tr>
-                    </td>
+                    <td>variable &#34;platform_id&#34; missing the following attributes:</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>coverage_content_type</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>units</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
               <tr>
                     </td>
+                  </tr>
+
+
+              </tbody>
+        </table>
+      </div> <!-- .high-priority-table -->
+
+      </div> <!-- .col-md-12 -->
+
+    <!-- Medium Priority -->
+
+    <div class="col-md-12">
+      <div class="table-collapse">
+        <a data-target="medium-priority-table" href="#"> Recommended <i class="glyphicon glyphicon-collapse-up"></i></a>
+      </div>
+      <div class="failures">
+        | <span class="label label-danger label-as-badge">1</span>
+      </div>
+      <div class="medium-priority-table collapse in">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="cname">Name</th>
+              <th class="ccorrection">Reasoning</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+                    <td>Global Attributes</td>
+                      <td>
+                          <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>acknowledgment/acknowledgement not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>processing_level not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_min not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_max not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>time_coverage_resolution not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_vertical_positive not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>geospatial_bounds_vertical_crs not present</li>
+                        </ul>
+
+                        <!-- bulleted list inside the table row -->
+                        <ul>
+                          <li>source not present</li>
+                        </ul>
+
+                        </td>
                   </tr>
 
 
@@ -965,14 +970,9 @@ li{
 
 
               </tbody>
+
         </table>
-      </div> <!-- .high-priority-table -->
-
-      </div> <!-- .col-md-12 -->
-
-    <!-- Medium Priority -->
-
-    <div class="col-md-12">
+      </div> <!-- .medium-priority-table -->
       </div> <!-- .col-md-12 -->
 
     <!-- Low Priority -->
